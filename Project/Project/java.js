@@ -1,10 +1,8 @@
-let button = document.getElementById("btn")
-let list = document.getElementById("navbar")
-
-let showList = function () {
-    list.classList.toggle("show")
-}
-
-
-
-button.addEventListener("click", showList)
+function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+  
